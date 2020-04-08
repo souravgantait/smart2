@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A1C History</title>
+  <script src="fhir-client.js"></script>
+  <script src="generate.js"></script>
+  <script src="load-fhir-data.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div style="height: 100%">
+    <div id="theme1">
+      <div class='header'>
+        <img src="logo.png" width='40' height='30' alt='logo' />
+        <h1>Smart Application</h1>
+        <h4>HealthAwareSmartDoc</h4>
+      </div>
+      <br />
+      <div id="main" class="row">
+        <!--       <div id="patientInfoDetail">Loading ...."</div> -->
+        <h4 style="padding-left: 180px; padding-top: 15px; color:black">
+          Patient Information :
+        </h4>
+        <table id="patientInfoTable" align="center"></table>
+      </div>
+
+      <hr style="background-color: black;" />
+
+      <div id="containerId">
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
